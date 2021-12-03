@@ -11,4 +11,4 @@ Les règle du jeux était a définir par les étudiant, nous avons donc choisi c
 - Au cours d'une partie il y a 18 drapeau et 15 bot durant une partie.
 - Une fois la ligne d'arriver dépasser le chono et compteur sont stopper.
 ## Element du TP non mis en place
-
+Le TP proposais dans la partie 1.3 de mettre en place un caméra masse-ressort, elle n'a pas été garder car le terrain utiliser n'est pas parfaitement lisse et donc le joueur fait beaucoup de micro saute activais l'effet ressort de la camera pratiquement tout le temps. Cela rendais le jeu injouable.
