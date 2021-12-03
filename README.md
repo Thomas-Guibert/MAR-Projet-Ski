@@ -14,7 +14,9 @@ Les règle du jeux était a définir par les étudiant, nous avons donc choisi c
 Le TP proposais dans la partie 1.3 de mettre en place un caméra masse-ressort, elle n'a pas été garder car le terrain utiliser n'est pas parfaitement lisse et donc le joueur fait beaucoup de micro saute activais l'effet ressort de la camera pratiquement tout le temps. Cela rendais le jeu injouable.
 ## Mise en place des different element du TP
 #### Le terrain
-La pente est constituer de 3 terrains mis a la suite. Les obstacle sont des assets gratuit qui ont été placé manuellement sur le terrain. Les drapeau et les points de depart des bot sont eux aussi defini de base, il n'y a pas de système d'aléatoire.
+La pente est constituer de 3 terrains mis a la suite. Les obstacle sont des assets gratuit qui ont été placé manuellement sur le terrain. Les drapeau et les points de depart des bot sont eux aussi defini de base. Aucun système d'aléatoire à été mis en place comme l'indique la partie optionel du TP.
+#### Les controls du joueur
+Le joueur peut avancer avec Z pour donnée une impulsion qui est toujours la meme. Avec Q et D il peut se deplacer à gauche ou à droite. Avec S il peut ralentir progressivement. Et avec Espace il peut sauté.
 #### Les bots et boids
 Pour mettre en place boids, 9 zone de detection on été crée.
 -Deux zone proche droite et gauche, pour eloigné lesbot quand ils sont trop proche
