@@ -12,3 +12,13 @@ Les règle du jeux était a définir par les étudiant, nous avons donc choisi c
 - Une fois la ligne d'arriver dépasser le chono et compteur sont stopper.
 ## Element du TP non mis en place
 Le TP proposais dans la partie 1.3 de mettre en place un caméra masse-ressort, elle n'a pas été garder car le terrain utiliser n'est pas parfaitement lisse et donc le joueur fait beaucoup de micro saute activais l'effet ressort de la camera pratiquement tout le temps. Cela rendais le jeu injouable.
+## Mise en place des different element du TP
+#### Le terrain
+La pente est constituer de 3 terrains mis a la suite. Les obstacle sont des assets gratuit qui ont été placé manuellement sur le terrain. Les drapeau et les points de depart des bot sont eux aussi defini de base, il n'y a pas de système d'aléatoire.
+#### Les bots et boids
+Pour mettre en place boids, 9 zone de detection on été crée.
+-Deux zone proche droite et gauche, pour eloigné lesbot quand ils sont trop proche
+-Deux zone moyenne droite et gauche, pour faire en sorte qu'ils se rapprochent d'un autre bot quand celui-ci s'éloigne un peu.
+-Deux zone loin droite et gauche, pour indiquer au bot d'arreter d'essayer de ce rapprocher de l'autre entité car elle est maintenant trop loin.
+-Deux zone de suivi droite et gauche, pour permettre au bots de ce suivrent entre eux quand un autre ce trouve devant eux
+-Enfin une zone d'évitement d'obstacles pour evité aléatoirment a droite ou a gauche des obstacle qu'ils rencontrent.
