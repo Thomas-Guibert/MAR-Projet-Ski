@@ -59,6 +59,7 @@ public class Deplacement : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && canJump){
             _body.AddForce(new Vector3(0,17000,0),ForceMode.Impulse);
             canJump=false;
+            RotatorCam.transform.Rotate(-2, 0,0);
         }
 
 
@@ -81,7 +82,7 @@ public class Deplacement : MonoBehaviour
         if(collision.gameObject.tag == "Field"){
             if(!canJump){
                 //Tantative de mise en place de la caméra masse-ressort
-                //RotatorCam.transform.Rotate(1, 0,0);
+                RotatorCam.transform.Rotate(2, 0,0);
             }
             canJump =true;
 
@@ -95,7 +96,7 @@ public class Deplacement : MonoBehaviour
                 // RotatorCam.transform.Rotate(-1, 0,0);
             }
                 
-            }
+        }
     }
 
 }
