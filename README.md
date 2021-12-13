@@ -3,6 +3,10 @@
 ## But du projet
 Le but du projet est de réaliser un jeu ou un skieur descend une pente, accompagné de bots controllés par le jeu
 
+## Git du projet :
+
+Git : https://github.com/Thomas-Guibert/MAR-Projet-Ski
+
 ## Lancement du jeu
 
 Le projet peut être éxecuté de deux manières :
